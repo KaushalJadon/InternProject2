@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Netflix Homepage</title>
+    </head>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+
+            body{
+                margin: 0px;
+                padding: 0px;
+                background: url("https://assets.nflxext.com/ffe/siteui/vlv3/b85863b0-0609-4dba-8fe8-d0370b25b9ee/fdf508c8-97d0-42fd-a6f9-9bef6bf96934/IN-en-20230731-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+                height: 100vh;
+            }
+            .container{
+                color: white;
+                font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif ;
+                /* border: 3px solid red;  */
+                width: 895px;
+                text-align: center;
+                margin: 240px auto;
+                
+            }
+            img{
+                height: 100px;
+                margin: 10px;
+            }
+            h1{
+                font-size: 3rem;
+            }
+            #p1{
+                font-size: 25px;
+            }
+            #search{
+                width: 428px;
+                font-size: 22px;
+                height: 55px;
+                border-radius: 18px;
+                border: 2px solid black;
+            }
+            #submit{
+                height: 55px;
+                width: 103px;
+                border: 2px solid black;
+                background-color: red;
+                border-radius: 24px;
+                color: white;
+                }
+            #lng{
+                top: 25px;
+                right: 202px;
+                display: inline-block;
+                position: absolute;
+                width: 94px;
+                height: 36px;
+                font-size: 19px;
+                
+                border-radius: 10px
+            }
+            #ln{
+                position: absolute;
+                background-color: tomato;
+                color: white;
+                top: 25px;
+                right: 102px;
+                height: 36px;
+                border-radius: 10px;
+                width: 81px;
+                font-size: 19px;
+            }
+        </style>
+    <body>
+         <img src="https://tse2.explicit.bing.net/th?id=OIP.NIPLugL-CDuHMwqZhX9Z7QHaEK&pid=Api&P=0&h=180" alt=""> 
+        
+        <div class="container">
+        <div>
+            <h1>Unlimited movies, TV shows and more </h1>
+
+        </div>
+        <div>
+            <p id="p1">Watch anywhere. Cancel anytime.</p>
+        </div>
+        <div>
+            <p>Ready to wtch? Enter your email to create or restart your membership.</p>
+        </div>
+        <div>
+            <input type="text" placeholder="     search Movies, TV shows and more" name="search" id="search">
+            <button type="search" id="submit">Search</button>
+        </div>
+        </div>
+        <div >
+            <select name="" id="lng" class="kanak">
+                <option value="ind">English</option>
+                <option value="swf">Hindi</option>
+            </select>
+            <button type="login" id="ln" class="kanak">Login</button>
+        </div>
+    </body>
+</html>
